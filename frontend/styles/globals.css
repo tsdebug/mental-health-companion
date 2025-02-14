@@ -1,0 +1,44 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  /* Apply a smooth background */
+  body {
+    background: linear-gradient(to right, #dbeafe, #e0e7ff);
+    color: #333;
+  }
+  
+  /* Center content */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Buttons */
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  .primary-btn {
+    background-color: #2563eb;
+    color: white;
+  }
+  
+  .secondary-btn {
+    background-color: #64748b;
+    color: white;
+  }  
