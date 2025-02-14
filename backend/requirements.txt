@@ -1,0 +1,10 @@
+fastapi==0.110.0
+uvicorn==0.27.1
+SQLAlchemy==2.0.29
+pydantic==2.6.3
+passlib[bcrypt]==1.7.4
+PyJWT==2.8.0
+psycopg2-binary==2.9.9  # PostgreSQL adapter (use sqlite3 for SQLite)
+python-dotenv==1.0.1
+google-cloud-aiplatform==1.47.1  # Vertex AI support
+google-generativeai==0.4.0  # Gemini API

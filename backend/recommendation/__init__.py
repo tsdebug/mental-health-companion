@@ -1,0 +1,1 @@
+from backend.recommendation.recommendation import router as recommendation_router
